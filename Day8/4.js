@@ -1,3 +1,4 @@
+// write a class to calculate uber price
 class carRent {
     constructor(price, km){
         this.price=price;
