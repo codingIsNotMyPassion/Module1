@@ -1,0 +1,65 @@
+1. List 5 difference between Browser JS(console) v Nodejs
+
+Browser js(Console) :
+    “window” is a predefined global object which has functions and attributes, that have to deal with window that has been drawn.
+    “location” is another predefined object in browsers, that has all the information about the url we have loaded.
+
+    “document”, which is also another predefined global variable in browsers, has the html which is rendered.
+
+    Browsers may have an object named “global”, but it will be the exact one as “window”
+
+    Browsers don’t have “require” predefined. You may include it in your app for asynchronous file loading.
+
+    Moduling is not mandatory in client side JavaScript, i.e. in browsers.
+
+Nodejs:
+    Node doesn’t have a predefined “window” object cause it doesn’t have a window to draw anything.
+
+    “location” object is related to a particular url; that means it is for page specific. So, node doesn’t require that.
+
+    Ofcourse Node doesn’t have “document” object also, cause it never have to render anything in a page.
+
+    Node has “global”, which is a predefined global object. It contains several functions that are not available in browsers, cause they are needed for server side works only.
+
+    “require” object is predefined in Node which is used to include modules in the app.
+
+    In Node everything is a module. You must keep your code inside a module.
+
+2. watch & summary 5 points -
+https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+
+    When a web page is loaded, the browser first reads the HTML text and constructs DOM Tree from it
+
+    After constructing the DOM, the browser reads CSS from all the sources (external, embedded, inline, user-agent, etc.) and construct a CSSOM. CSSOM stands for CSS Object Model which is a Tree Like structure just like DOM.
+
+    Render-Tree is also a tree-like structure constructed by combining DOM and CSSOM trees together
+
+    This layout step (which you’ll sometimes hear called the “reflow” step) takes into consideration the content and style received from the DOM and CSSOM and does all the necessary layout computing
+
+    the browser now “paints” the individual node to the screen
+
+    the steps taken between receiving the HTML, CSS, and JS bytes and turning them into rendered pixels on the screen is called the critical rendering path (CRP). Optimizing your websites for performance is all about optimizing the CRP
+
+
+
+4. Execute the below code and write your description in txt file
+    a. typeof(1)
+    b. typeof(1.1)
+    c. typeof('1.1')
+    d. typeof(true)
+    e. typeof(null)
+    f. typeof(undefined)
+    g. typeof([])
+    h. typeof({})
+    i. typeof(NaN)
+
+Answers:
+    a.  number
+    b.  number
+    c.  string 
+    d.  boolean 
+    e.  object 
+    f.  undefined 
+    g.  object 
+    h.  object 
+    i.  number
