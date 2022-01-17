@@ -1,3 +1,4 @@
+// Write a “person” class to hold all the details
 class person{
     constructor(firstName,lastName, age, gender, address){
         this.firstName=firstName,
