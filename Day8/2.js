@@ -1,3 +1,4 @@
+// circle object creation and methods
 var red
 class Circle {
     constructor(radius, color){
