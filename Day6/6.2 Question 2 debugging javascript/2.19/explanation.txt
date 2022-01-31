@@ -1,0 +1,3 @@
+lemein is displayed because its not an empty string and its true
+
+lemeout is not displayed because 0 is not falsy
